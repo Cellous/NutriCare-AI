@@ -10,8 +10,8 @@ The goal is to predict hospital readmissions for diabetic patients using clinica
 - Configured as a **Tabular Dataset** stored in `workspaceblobstore`.  
 - Confirmed dataset contained **100,000+ patient hospital admissions** across 130 U.S. hospitals.  
 
-📸 Screenshot: `Dataset_Registered.png`  
-📸 Screenshot: `Step1_Settings.png`  
+Screenshot: `Dataset_Registered.png`  
+Screenshot: `Step1_Settings.png`  
 
 ---
 
@@ -98,7 +98,7 @@ After profiling the Diabetes dataset, the next step is to build predictive model
 - Algorithms tested: Logistic Regression, Random Forest, Gradient Boosted Trees, Neural Networks.  
 - AutoML selected the **best model** based on performance.  
 
-📸 Screenshot: `Step5_ModelTraining.png`  
+Screenshot: `Step5_ModelTraining.png`  
 
 ---
 
