@@ -15,27 +15,39 @@ The goal is to predict hospital readmissions for diabetic patients using clinica
 
 ---
 
-## Step 2 – Schema Review
-- Validated schema with **48 columns**.  
-- Key features include:  
-  - `encounter_id`, `patient_nbr`, `race`, `gender`, `age`,  
-  - `admission_type_id`, `discharge_disposition_id`, `time_in_hospital`,  
-  - lab/procedure counts, outpatient/inpatient/emergency visits.  
-- Verified data types (Integer, String, Decimal).  
-- No schema conflicts detected before preprocessing.  
+## 📊 Case Study: Diabetes Data Profiling
 
-📸 Screenshot: `Step2_Schema.png`  
+### Step 2 – Schema & Profiling
+
+**Overview & Schema**
+![Overview](docs/screenshots/CaseStudy_Diabetes/CaseStudy_Diabetes_Step2_Overview.png)  
+![Schema](docs/screenshots/CaseStudy_Diabetes/CaseStudy_Diabetes_Step2_Schema.png)  
+
+**Identifiers**
+![Identifiers](docs/screenshots/CaseStudy_Diabetes/CaseStudy_Diabetes_Step2_IDs.png)  
+
+**Demographics**
+![Demographics](docs/screenshots/CaseStudy_Diabetes/CaseStudy_Diabetes_Step2_Demographics.png)  
+
+**Clinical Codes**
+![Clinical Codes 1](docs/screenshots/CaseStudy_Diabetes/CaseStudy_Diabetes_Step2_ClinicalCodes1.png)  
+![Clinical Codes 2](docs/screenshots/CaseStudy_Diabetes/CaseStudy_Diabetes_Step2_ClinicalCodes2.png)  
+![Clinical Codes 3](docs/screenshots/CaseStudy_Diabetes/CaseStudy_Diabetes_Step2_ClinicalCodes3.png)  
+
+**Labs**
+![Labs 1](docs/screenshots/CaseStudy_Diabetes/CaseStudy_Diabetes_Step2_Labs1.png)  
+![Labs 2](docs/screenshots/CaseStudy_Diabetes/CaseStudy_Diabetes_Step2_Labs2.png)  
+
+**Outcomes**
+![Outcomes 1](docs/screenshots/CaseStudy_Diabetes/CaseStudy_Diabetes_Step2_Outcomes1.png)  
+![Outcomes 2](docs/screenshots/CaseStudy_Diabetes/CaseStudy_Diabetes_Step2_Outcomes2.png)  
 
 ---
 
-## Step 3 – Data Cleansing & Normalization
-- Handled **missing values** (e.g., `weight = 'unknown'`).  
-- Normalized continuous variables (e.g., `num_lab_procedures`, `num_procedures`).  
-- Encoded categorical variables (`gender`, `race`, `payer_code`).  
-- Removed duplicates and irrelevant features (if any).  
+### Step 3 – Review
+**Dataset Review**
+![Review](docs/screenshots/CaseStudy_Diabetes/CaseStudy_Diabetes_Step3_Review.png)
 
-📸 Screenshot: `Step3_Cleansing.png`  
-📸 Screenshot: `Step4_Normalization.png`  
 
 ---
 
