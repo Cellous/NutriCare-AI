@@ -15,7 +15,7 @@ The goal is to predict hospital readmissions for diabetic patients using clinica
 
 ---
 
-## 📊 Case Study: Diabetes Data Profiling
+## Case Study: Diabetes Data Profiling
 
 ### Step 2 – Schema & Profiling
 
