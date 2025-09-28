@@ -91,6 +91,8 @@ The dataset is clean (no missing values) and balanced across multiple dimensions
 ---
 
 ## Step 4 – Modeling
+After profiling the Diabetes dataset, the next step is to build predictive models to evaluate which features are most important for hospital readmissions. The target variable is readmitted, which captures whether a patient was readmitted within 30 days.
+
 - Launched an **AutoML classification experiment** in Azure ML.  
 - Target variable: **Readmission (yes/no)**.  
 - Algorithms tested: Logistic Regression, Random Forest, Gradient Boosted Trees, Neural Networks.  
